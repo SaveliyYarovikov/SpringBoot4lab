@@ -15,7 +15,7 @@ public class MyController {
 
     @Autowired
     private StudentService studentService;
-//check
+
     @GetMapping("/students")
     public List<Student> showAllStudents(){
         List<Student> allStudents = studentService.getAllStudents();
